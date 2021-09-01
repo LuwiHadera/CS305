@@ -1,7 +1,7 @@
 
-function convertFahrenheit(celcius){
-    let farenheit = (celcius -32) * 5 / 9;
-    return farenheit;
+function convertFahrenheit(farenheit){
+    let celcius = (farenheit -32) * 5 / 9;
+    return celcius;
 }
 console.log(convertFahrenheit(32));
 console.log(convertFahrenheit(0));

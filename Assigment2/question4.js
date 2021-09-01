@@ -1,5 +1,5 @@
  // one
- function sum(num){
+ function sumDigits(num){
      let sum = 0;
      while(num > 0){
          let reminder = num % 10;
@@ -8,12 +8,12 @@
      }
      return sum;
  }
-console.log(sum(1234));
-console.log(sum(102));
-console.log(sum(8));
+console.log(sumDigits(1234));
+console.log(sumDigits(102));
+console.log(sumDigits(8));
  
  // two
- function multipcation(num){
+ function multipcationDigits(num){
     let multi = 1;
     while(num > 1){
         let reminder = num % 10;
@@ -23,7 +23,7 @@ console.log(sum(8));
     }
     return multi;
  }
- console.log(multipcation(1234));
- console.log(multipcation(102));
- console.log(multipcation(8));
+ console.log(multipcationDigits(1234));
+ console.log(multipcationDigits(102));
+ console.log(multipcationDigits(8));
 
