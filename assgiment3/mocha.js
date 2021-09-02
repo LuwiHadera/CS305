@@ -107,7 +107,7 @@ describe("test convertFahrenheit", function () {
 
  describe("test calcDistance", function () {
     it("tests distance 0,0,5,5", function () {
-      assert.strictEqual(calcDistance(0, 0, 5, 5), 5);
+      assert.strictEqual(calcDistance(0, 0, 5, 5), 7.0710678118654755);
     });
   });
   

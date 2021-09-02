@@ -102,7 +102,7 @@ module.exports = {isVowel,computeSalesCommission,compoundInterest,calcDownPaymen
  * @returns {number} the distance between those coordinates
  */
  function calcDistance(x1coords, y1coords, x2coords, y2coords) {
-    let distance = Math.sqrt((x2coords - x1coords) * (x2coords - x1coords) + (y1coords - y1coords) * (y2coords - y1coords));
+    let distance = Math.sqrt((x2coords - x1coords) * (x2coords - x1coords) + (y2coords - y1coords) * (y2coords - y1coords));
     return distance;
   }
 
