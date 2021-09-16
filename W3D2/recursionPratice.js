@@ -1,4 +1,4 @@
-// module.exports = {getMatchingTree}
+ module.exports = {getMatchingTree}
 
 function TreeNode(value) {
   this.value = value;
